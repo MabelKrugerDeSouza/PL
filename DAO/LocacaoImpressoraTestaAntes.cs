@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    class LocacaoImpressoraTesteStrategy : DropCreateDatabaseAlways<LocacaoImpressoraDbContext>
+    class LocacaoImpressoraTestaAntes : DropCreateDatabaseAlways<LocacaoImpressoraDbContext>
     {
         protected override void Seed(LocacaoImpressoraDbContext context)
         {
@@ -18,9 +18,9 @@ namespace DAO
                 {
                     Name = "Carlos H Oliveira",
                     Ativo = true,
-                    CPF = "098.091.979-77",
+                    CPF = "093.095.979-77",
                     DataNascimento = DateTime.Now.AddYears(-19),
-                    Email = "Caik_oliveirapires@hotmail.com"
+                    Email = "Caik_oliveiiiirarapires@hotmail.com"
                 };
                 context.Clientes.Add(c);
                 context.SaveChanges();

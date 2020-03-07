@@ -53,7 +53,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="LocacaoImpressoraDbContext.cs" />
-    <Compile Include="LocacaoImpressoraTesteStrategy.cs" />
+    <Compile Include="LocacaoImpressoraTestaAntes.cs" />
     <Compile Include="Mappings\CartuchoMapConfig.cs" />
     <Compile Include="Mappings\ClienteMapConfig.cs" />
     <Compile Include="Mappings\ImpressoraMapConfig.cs" />
